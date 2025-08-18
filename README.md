@@ -29,12 +29,9 @@ pip install -r requirements.txt
 
 3. 运行应用
 ```bash
-python test_ui.py
+python heart_rate.py
 ```
 
-### 直接使用可执行文件
-1. 从`dist`目录下获取`test_ui.exe`
-2. 双击运行即可
 
 ## 使用说明
 1. 启动应用程序
@@ -43,18 +40,6 @@ python test_ui.py
 4. 监测数据将实时显示在界面上
 5. 可以通过"导出数据"按钮将历史数据保存为CSV格式
 
-## 项目结构
-```
-heart_rate/
-├── .gitignore         # Git忽略文件
-├── README.md          # 项目说明文档
-├── ui.py              # UI相关代码
-├── test_ui.py         # 测试入口文件
-├── test_ui.spec       # PyInstaller打包配置
-├── 1.ico              # 应用图标
-├── build/             # 构建中间产物
-└── dist/              # 打包后的可执行文件
-```
 
 ## 贡献指南
 欢迎对本项目提出建议和改进。如果您想贡献代码，请遵循以下步骤：
