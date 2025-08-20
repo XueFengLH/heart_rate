@@ -31,6 +31,11 @@ pip install -r requirements.txt
 ```bash
 python heart_rate.py
 ```
+4. 打包程序
+```bash
+pyinstaller -F -w -i 1.ico heart_rate.py
+
+```
 
 
 ## 使用说明

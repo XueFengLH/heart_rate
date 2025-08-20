@@ -14,7 +14,15 @@ class HeartRateGUI:
         self.root.configure(bg="#121212")
 
         # 设置窗口位置和大小
-        self.root.geometry("200x200+100+100")
+        window_width = 200
+        window_height = 200
+        screen_width = root.winfo_screenwidth()
+        screen_height = root.winfo_screenheight()
+        x = screen_width - window_width * 0.75
+        x = int(x)
+        y = 0  # 可以设为 10 等值，留出一点边距
+        root.geometry(f"{window_width}x{window_height}+{x}+{y}")
+        # self.root.geometry("200x200+100+100")
 
         # 创建画布
         self.canvas = tk.Canvas(
