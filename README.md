@@ -50,6 +50,3 @@ pyinstaller -F -w -i 1.ico heart_rate.py
 
 ## 许可证
 [MIT许可证](LICENSE) - 开源免费使用
-
-## 联系方式
-如有问题或建议，请联系: [your.email@example.com]
